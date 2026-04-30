@@ -34,6 +34,8 @@ public:
     FindResult Find(int data);
     // 删除节点(删除法)
     bool Remove(int pos);
+    // 删除节点(通过值删除法)
+    bool Remove(int* data);
     // 遍历链表
     void Display();
     // 返回头结点
